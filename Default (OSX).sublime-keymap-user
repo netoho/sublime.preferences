@@ -8,4 +8,22 @@
     "args": {"undo": true},
     "context": [{ "key": "expand_region_soft_undo" }]
   }
+  
+  
+  // Linux
+  
+  
+  [
+  { "keys": ["alt+w"], "command": "close" },
+  { "keys": ["ctrl+-"], "command": "reindent"},
+  { "keys": ["ctrl+w"], "command": "expand_region" },
+  {
+    "keys": ["ctrl+shift+w"],
+    "command": "expand_region",
+    "args": {"undo": true},
+    "context": [{ "key": "expand_region_soft_undo" }]
+  },
+  { "keys": ["ctrl+alt+shift+s"], "command": "save_all" }
+]
+
 ]
