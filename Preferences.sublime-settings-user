@@ -1,14 +1,4 @@
 {
-	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
-	"font_size": 15.0,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"theme": "Spacegray Eighties.sublime-theme",
-	
-	
-	{
 	"binary_file_patterns":
 	[
 		"*.jpg",
@@ -28,6 +18,10 @@
 		"node_modules/*",
 		"tmp/*"
 	],
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"fade_fold_buttons": false,
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -50,13 +44,25 @@
 		"*.psd",
 		"*.db"
 	],
-	"font_size": 9,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"public/jsmin"
+	],
+	"font_face": "consolas",
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
 	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true
-}
-
 }
