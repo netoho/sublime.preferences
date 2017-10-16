@@ -20,7 +20,7 @@
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
 	"fade_fold_buttons": false,
 	"file_exclude_patterns":
 	[
@@ -52,8 +52,8 @@
 		"CVS",
 		"public/jsmin"
 	],
-	"font_face": "consolas",
-	"font_size": 12,
+	"font_face": "inconsolata",
+	"font_size": 20,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -62,6 +62,8 @@
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
+	"spacegray_fileicons": true,
+	"spacegray_tabs_auto_width": true,
 	"tab_size": 2,
 	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true
