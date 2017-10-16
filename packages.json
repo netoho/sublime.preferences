@@ -1,0 +1,14 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"ExpandRegion",
+		"Git",
+		"Package Control",
+		"Theme - Spacegray"
+	]
+}
