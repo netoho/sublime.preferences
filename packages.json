@@ -1,14 +1,18 @@
 {
-	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
-	"installed_packages":
-	[
-		"Babel",
-		"ExpandRegion",
-		"Git",
-		"Package Control",
-		"Theme - Spacegray"
-	]
+        "bootstrapped": true,
+        "in_process_packages":
+        [
+        ],
+        "installed_packages":
+        [
+                "Babel",
+                "Emmet",
+                "ExpandRegion",
+                "GitGutter",
+                "JsPrettier",
+                "Package Control",
+                "Pretty JSON",
+                "Random Everything",
+                "Theme - Spacegray"
+        ]
 }
