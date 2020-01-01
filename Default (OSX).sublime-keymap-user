@@ -1,11 +1,44 @@
 // MacOSX
 
 [
-	{ "keys": ["alt+w"], "command": "close" },
-	{ "keys": ["ctrl+-"], "command": "reindent"},
-	{ "keys": ["super+w"], "command": "expand_region" },
- 	{ "keys": ["super+shift+w"], "command": "expand_region", "args": {"undo": true}, "context": [{ "key": "expand_region_soft_undo" }] },
- 	{ "keys": ["super+0"], "command": "reveal_in_side_bar" }
+  {
+    "command": "close",
+    "keys": [
+      "alt+w"
+    ]
+  },
+  {
+    "command": "reindent",
+    "keys": [
+      "ctrl+-"
+    ]
+  },
+  {
+    "command": "expand_region",
+    "keys": [
+      "super+w"
+    ]
+  },
+  {
+    "args": {
+      "undo": true
+    },
+    "command": "expand_region",
+    "context": [
+      {
+        "key": "expand_region_soft_undo"
+      }
+    ],
+    "keys": [
+      "super+shift+w"
+    ]
+  },
+  {
+    "command": "reveal_in_side_bar",
+    "keys": [
+      "super+0"
+    ]
+  }
 ]
  
   
